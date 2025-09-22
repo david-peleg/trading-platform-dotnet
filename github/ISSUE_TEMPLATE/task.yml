@@ -1,0 +1,17 @@
+name: Task
+description: משימת פיתוח לפי תבנית GPT
+body:
+  - type: textarea
+    id: goal
+    attributes: { label: מטרה, placeholder: קצר וברור }
+    validations: { required: true }
+  - type: textarea
+    id: input
+    attributes: { label: קלט זמין }
+  - type: textarea
+    id: constraints
+    attributes: { label: מגבלות/העדפות, placeholder: Dapper, Hebrew+English, וכו’ }
+  - type: textarea
+    id: deliverables
+    attributes: { label: תוצר נדרש }
+    validations: { required: true }
